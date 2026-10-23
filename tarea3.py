@@ -21,4 +21,6 @@ temperaturas = [25.6, 23.2, 24, 32, 15, 14, -12, 46, 31.8, 30, 30.01, 29.99]
 for temperatura in temperaturas:
     resultado = clasif_temp(temperatura)
     resultemp = tempf(temperatura)
-    print(round(resultemp,1), resultado)
+    print(temperatura,"°C =",round(resultemp,1),"°F ->",resultado)
+
+    # Aqui finaliza la tarea 3
